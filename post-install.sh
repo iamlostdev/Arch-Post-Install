@@ -56,3 +56,16 @@ sudo pacman -S $(expac '%n %o' | grep ^wine)
 
 flatpak install flathub com.mojang.Minecraft
 
+pacman -S
+
+git clone https://aur.archlinux.org/yay.git
+
+cd yay
+
+makepkg -si
+
+yay -S noisetorch
+
+yay -S davinci-resolve
+
+
