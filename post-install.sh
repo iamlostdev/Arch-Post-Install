@@ -14,8 +14,6 @@ sudo snap install blender --classic
 
 sudo snap install discord 
 
-sudo snap install minecraft-launcher-ot 
-
 sudo snap install chromium 
 
 sudo snap install handbrake-jz 
@@ -55,4 +53,6 @@ cd /tmp/grapejuice
 sudo pacman -S expac 
 
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
+
+flatpak install flathub com.mojang.Minecraft
 
