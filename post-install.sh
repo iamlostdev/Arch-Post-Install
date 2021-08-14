@@ -68,4 +68,7 @@ yay -S noisetorch
 
 yay -S davinci-resolve
 
+yay -S heroic-games-launcher-bin
+
+yay -S qbittorrent
 
