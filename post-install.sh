@@ -28,13 +28,13 @@ sudo snap install audacity
 
 sudo snap install code --classic 
 
-sudo pacman -S lutris 
-
 git clone https://github.com/AUNaseef/protonup && cd protonup
 python3 setup.py install --user
 
 [multilib]
 Include = /etc/pacman.d/mirrorlist
+
+sudo pacman -S lutris 
 
 sudo pacman -Syu 
 
@@ -72,3 +72,4 @@ yay -S heroic-games-launcher-bin
 
 yay -S qbittorrent
 
+flatpak install flathub org.libreoffice.LibreOffice
