@@ -74,4 +74,8 @@ yay -S heroic-games-launcher-bin
 
 yay -S qbittorrent
 
+yay -S virtualbox-bin
+
+yay -S unreal-engine
+
 flatpak install flathub org.libreoffice.LibreOffice
