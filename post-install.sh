@@ -78,4 +78,8 @@ yay -S virtualbox-bin
 
 yay -S unreal-engine
 
+yay -S wireshark-git
+
+yay -S protonvpn
+
 flatpak install flathub org.libreoffice.LibreOffice
