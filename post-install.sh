@@ -28,6 +28,8 @@ sudo snap install audacity
 
 sudo snap install code --classic 
 
+sudo snap install gimp
+
 git clone https://github.com/AUNaseef/protonup && cd protonup
 python3 setup.py install --user
 
