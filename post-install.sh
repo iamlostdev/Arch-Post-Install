@@ -10,13 +10,11 @@ sudo systemctl enable --now snapd.socket
 
 sudo ln -s /var/lib/snapd/snap /snap\ 
 
-sudo snap install blender --classic 
+sudo snap install blender
 
 sudo snap install discord 
 
 sudo snap install chromium 
-
-sudo snap install handbrake-jz 
 
 sudo snap install darktable 
 
@@ -58,11 +56,9 @@ sudo pacman -S $(expac '%n %o' | grep ^wine)
 
 flatpak install flathub com.mojang.Minecraft
 
-pacman -S
+git clone https://aur.archlinux.org/yay-git.git
 
-git clone https://aur.archlinux.org/yay.git
-
-cd yay
+cd yay-git
 
 makepkg -si
 
@@ -82,5 +78,6 @@ yay -S protonvpn
 
 flatpak install flathub org.libreoffice.LibreOffice
 
-
 flatpak install flathub org.wireshark.Wireshark
+
+flatpak install flathub fr.handbrake.ghb
