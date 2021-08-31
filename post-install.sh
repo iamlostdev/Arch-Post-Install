@@ -10,8 +10,6 @@ sudo systemctl enable --now snapd.socket
 
 sudo ln -s /var/lib/snapd/snap /snap\ 
 
-sudo snap install blender
-
 sudo snap install discord 
 
 sudo snap install chromium 
@@ -81,3 +79,5 @@ flatpak install flathub org.libreoffice.LibreOffice
 flatpak install flathub org.wireshark.Wireshark
 
 flatpak install flathub fr.handbrake.ghb
+
+flatpak install flathub org.blender.Blender
