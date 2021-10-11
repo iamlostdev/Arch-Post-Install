@@ -82,18 +82,6 @@ flatpak install flathub fr.handbrake.ghb
 
 flatpak install flathub org.blender.Blender
 
-mkdir build  
-cd build  
-cmake ../ \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_INSTALL_PREFIX=/usr \
-    -DLIB_INSTALL_DIR=lib \
-    -DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
-    -DSYSCONF_INSTALL_DIR=/etc
-make
-make install 
-
-
 sudo pacman -Sy sddm
 
 sudo systemctl enable sddm.service --force
