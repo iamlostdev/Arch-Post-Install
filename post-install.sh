@@ -114,4 +114,5 @@ startplasma-x11
 
 sudo systemcl stop sddm
 
-sudo systemctl reboot
+
+please reboot!
