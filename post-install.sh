@@ -98,8 +98,8 @@ sudo pacman -Sy
 
 sudo pacman -Syyu
 
-cd ./Desktop
+startplasma-x11 
 
-git clone https://github.com/intLostDev/part2
+sudo systemctl stop sddm 
 
 sudo reboot
