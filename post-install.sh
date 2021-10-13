@@ -12,8 +12,6 @@ sudo ln -s /var/lib/snapd/snap /snap\
 
 sudo snap install discord 
 
-sudo snap install chromium 
-
 sudo snap install darktable 
 
 sudo snap install inkscape 
@@ -70,9 +68,9 @@ yay -S qbittorrent
 
 yay -S virtualbox-bin
 
-yay -S unreal-engine
-
 yay -S protonvpn
+
+yay -S atom-editor-git
 
 flatpak install flathub org.libreoffice.LibreOffice
 
