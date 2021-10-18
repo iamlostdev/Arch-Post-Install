@@ -79,25 +79,3 @@ flatpak install flathub org.wireshark.Wireshark
 flatpak install flathub fr.handbrake.ghb
 
 flatpak install flathub org.blender.Blender
-
-sudo pacman -Sy sddm
-
-sudo systemctl enable sddm.service --force
-
-pamac install sddm
-
-sudo pacman -Sy update
-
-sudo pacman -Syyu plasma-deesktop sddm qt5-base
-
-sudo pacman -Sy libc
-
-sudo pacman -Sy
-
-sudo pacman -Syyu
-
-startplasma-x11 
-
-sudo systemctl stop sddm 
-
-sudo reboot
