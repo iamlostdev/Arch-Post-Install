@@ -22,8 +22,6 @@ sudo snap install obs-studio
 
 sudo snap install audacity
 
-sudo snap install code --classic 
-
 sudo snap install gimp
 
 git clone https://github.com/AUNaseef/protonup && cd protonup
@@ -43,6 +41,8 @@ sudo pacman -S steam
 sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
 sudo pacman -S git python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info 
+
+sudo pacman -S code
 
 git clone https://gitlab.com/brinkervii/grapejuice.git /tmp/grapejuice
 
@@ -67,8 +67,6 @@ yay -S qbittorrent
 yay -S virtualbox-bin
 
 yay -S protonvpn
-
-yay -S atom-editor-git
 
 flatpak install flathub org.libreoffice.LibreOffice
 
