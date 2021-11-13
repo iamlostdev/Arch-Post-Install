@@ -24,6 +24,8 @@ sudo snap install audacity
 
 sudo snap install gimp
 
+sudo snap install code --classic
+
 git clone https://github.com/AUNaseef/protonup && cd protonup
 python3 setup.py install --user
 
@@ -41,8 +43,6 @@ sudo pacman -S steam
 sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
 sudo pacman -S git python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info 
-
-sudo pacman -S code
 
 git clone https://gitlab.com/brinkervii/grapejuice.git /tmp/grapejuice
 
