@@ -10,6 +10,10 @@ sudo pacman -S flatpak
 
 sudo pacman -S cmake
 
+sudo pacman -Syyu
+
+sudo pacman -S base-devel
+
 sudo systemctl enable --now snapd.socket 
 
 sudo ln -s /var/lib/snapd/snap /snap\ 
