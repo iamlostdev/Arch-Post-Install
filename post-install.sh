@@ -6,6 +6,8 @@ sudo pacman -S git
 
 sudo pacman -S snapd 
 
+sudo pacman -S flatpak
+
 sudo systemctl enable --now snapd.socket 
 
 sudo ln -s /var/lib/snapd/snap /snap\ 
@@ -52,12 +54,6 @@ sudo pacman -S $(expac '%n %o' | grep ^wine)
 
 flatpak install flathub com.mojang.Minecraft
 
-git clone https://aur.archlinux.org/yay-git.git
-
-cd yay-git
-
-makepkg -si
-
 yay -S noisetorch
 
 yay -S davinci-resolve
@@ -79,3 +75,12 @@ flatpak install flathub org.wireshark.Wireshark
 flatpak install flathub fr.handbrake.ghb
 
 flatpak install flathub org.blender.Blender
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+git clone https://github.com/bevyengine/bevy
+
+cd bevy
+
+git checkout latest
+
