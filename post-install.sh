@@ -8,6 +8,8 @@ sudo pacman -S snapd
 
 sudo pacman -S flatpak
 
+sudo pacman -S cmake
+
 sudo systemctl enable --now snapd.socket 
 
 sudo ln -s /var/lib/snapd/snap /snap\ 
@@ -24,8 +26,6 @@ sudo snap install audacity
 
 sudo snap install gimp
 
-sudo snap install code --classic
-
 git clone https://github.com/AUNaseef/protonup && cd protonup
 python3 setup.py install --user
 
@@ -39,6 +39,8 @@ sudo pacman -Syu
 sudo pacman -S wine 
 
 sudo pacman -S steam
+
+sudo pacman -S code
 
 sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
