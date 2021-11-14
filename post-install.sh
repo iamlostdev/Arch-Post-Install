@@ -60,8 +60,6 @@ sudo pacman -S expac
 
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
-flatpak install flathub com.mojang.Minecraft
-
 yay -S noisetorch
 
 yay -S davinci-resolve
@@ -73,6 +71,8 @@ yay -S qbittorrent
 yay -S virtualbox-bin
 
 yay -S protonvpn
+
+yay -S minecraft-launcher
 
 flatpak install flathub org.libreoffice.LibreOffice
 
