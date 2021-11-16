@@ -26,8 +26,6 @@ sudo snap install darktable
 
 sudo snap install inkscape 
 
-sudo snap install obs-studio 
-
 sudo snap install audacity
 
 sudo snap install gimp
@@ -47,6 +45,8 @@ sudo pacman -S wine
 sudo pacman -S steam
 
 sudo pacman -S code
+
+sudo pacman -S obs-studio
 
 sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
