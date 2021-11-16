@@ -20,8 +20,8 @@ sudo systemctl enable --now snapd.socket
 
 sudo ln -s /var/lib/snapd/snap /snap\ 
 
-sudo snap install discord 
- 
+cd ~
+
 git clone https://github.com/AUNaseef/protonup && cd protonup
 python3 setup.py install --user
 
@@ -56,6 +56,8 @@ sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse 
 
 sudo pacman -S git python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info 
 
+cd ~
+
 git clone https://gitlab.com/brinkervii/grapejuice.git /tmp/grapejuice
 
 cd /tmp/grapejuice
@@ -86,7 +88,11 @@ flatpak install flathub org.wireshark.Wireshark
 
 flatpak install flathub fr.handbrake.ghb
 
+cd ~
+
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+cd ~
 
 git clone https://github.com/bevyengine/bevy
 
