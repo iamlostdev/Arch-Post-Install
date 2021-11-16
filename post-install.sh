@@ -24,11 +24,7 @@ sudo snap install discord
 
 sudo snap install darktable 
 
-sudo snap install inkscape 
-
 sudo snap install audacity
-
-sudo snap install gimp
 
 git clone https://github.com/AUNaseef/protonup && cd protonup
 python3 setup.py install --user
@@ -37,6 +33,10 @@ python3 setup.py install --user
 Include = /etc/pacman.d/mirrorlist
 
 sudo pacman -S lutris 
+
+sudo pacman -S inkscape
+
+sudo pacman -S gimp
 
 sudo pacman -Syu 
 
