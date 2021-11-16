@@ -21,9 +21,7 @@ sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap\ 
 
 sudo snap install discord 
-
-sudo snap install darktable 
-
+ 
 sudo snap install audacity
 
 git clone https://github.com/AUNaseef/protonup && cd protonup
@@ -33,6 +31,8 @@ python3 setup.py install --user
 Include = /etc/pacman.d/mirrorlist
 
 sudo pacman -S lutris 
+
+sudo pacman -S darktable
 
 sudo pacman -S inkscape
 
