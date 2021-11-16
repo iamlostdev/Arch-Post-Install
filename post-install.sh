@@ -4,6 +4,8 @@ cd ~
 
 sudo pacman -Sy
 
+sudo pacman -Syu
+
 sudo pacman -Syyu
 
 sudo pacman -S yay
