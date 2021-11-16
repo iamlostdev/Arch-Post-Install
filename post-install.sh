@@ -22,8 +22,6 @@ sudo ln -s /var/lib/snapd/snap /snap\
 
 sudo snap install discord 
  
-sudo snap install audacity
-
 git clone https://github.com/AUNaseef/protonup && cd protonup
 python3 setup.py install --user
 
@@ -31,6 +29,8 @@ python3 setup.py install --user
 Include = /etc/pacman.d/mirrorlist
 
 sudo pacman -S lutris 
+
+sudo pacman -S audacity
 
 sudo pacman -S darktable
 
