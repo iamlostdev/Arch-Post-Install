@@ -50,6 +50,8 @@ sudo pacman -S obs-studio
 
 sudo pacman -S neofetch
 
+sudo pacman -S blender
+
 sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
 sudo pacman -S git python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info 
@@ -83,8 +85,6 @@ flatpak install flathub org.libreoffice.LibreOffice
 flatpak install flathub org.wireshark.Wireshark
 
 flatpak install flathub fr.handbrake.ghb
-
-flatpak install flathub org.blender.Blender
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
