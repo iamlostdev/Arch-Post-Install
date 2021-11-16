@@ -1,6 +1,10 @@
 #!/bin/bash
 
-cd
+cd ~
+
+sudo pacman -Sy
+
+sudo pacman -Syyu
 
 sudo pacman -S yay
 
@@ -11,8 +15,6 @@ sudo pacman -S snapd
 sudo pacman -S flatpak
 
 sudo pacman -S cmake
-
-sudo pacman -Syyu
 
 sudo pacman -S base-devel
 
