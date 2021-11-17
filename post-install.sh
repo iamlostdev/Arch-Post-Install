@@ -62,14 +62,6 @@ sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse 
 
 sudo pacman -S git python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info 
 
-cd ~
-
-git clone https://gitlab.com/brinkervii/grapejuice.git /tmp/grapejuice
-
-cd /tmp/grapejuice
-./install.py
-
-
 sudo pacman -S expac 
 
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
@@ -102,9 +94,23 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 cd ~
 
+git clone https://gitlab.com/brinkervii/grapejuice.git /tmp/grapejuice
+
+cd /tmp/grapejuice
+./install.py
+
+cd ~
+
 git clone https://github.com/bevyengine/bevy
 
 cd bevy
 
 git checkout latest
 
+cd ~
+
+git clone https://github.com/intLostDev/Arch-Grapejuice-Mouse-Fix
+
+cd Arch-Grapejuice-Mouse-Fix
+
+sudo pacman -U wine-tkg-staging-fsync-git-6.11.r4.g0dd44a25-326-x86_64.pkg.tar.zst
