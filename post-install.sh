@@ -82,6 +82,8 @@ yay -S minecraft-launcher
 
 yay -S github-desktop
 
+yay -S apt
+
 flatpak install flathub org.libreoffice.LibreOffice
 
 flatpak install flathub org.wireshark.Wireshark
@@ -114,3 +116,7 @@ git clone https://github.com/intLostDev/Arch-Grapejuice-Mouse-Fix
 cd Arch-Grapejuice-Mouse-Fix
 
 sudo pacman -U wine-tkg-fsync-git-6.14.r0.g7bedd313c88-326-x86_64.pkg.tar.zst
+
+cd ~
+
+sudo su -c "bash <(wget -qO- https://download.cudo.org/tenants/135790374f46b0107c516a5f5e13069b/5e5f800fdf87209fdf8f9b61441e53a1/linux/x64/stable/install.sh)" root
