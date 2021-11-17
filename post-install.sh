@@ -42,8 +42,6 @@ sudo pacman -S inkscape
 
 sudo pacman -S gimp
 
-sudo pacman -Syu 
-
 sudo pacman -S wine 
 
 sudo pacman -S steam
