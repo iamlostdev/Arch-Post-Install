@@ -82,6 +82,8 @@ yay -S minecraft-launcher
 
 yay -S github-desktop
 
+yay -S salad
+
 flatpak install flathub org.libreoffice.LibreOffice
 
 flatpak install flathub org.wireshark.Wireshark
