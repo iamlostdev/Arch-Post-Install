@@ -32,6 +32,8 @@ python3 setup.py install --user
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 
+sudo pacman -S vlc
+
 sudo pacman -S lutris 
 
 sudo pacman -S audacity
