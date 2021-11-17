@@ -88,6 +88,8 @@ yay -S protonvpn
 
 yay -S minecraft-launcher
 
+yay -S github-desktop
+
 flatpak install flathub org.libreoffice.LibreOffice
 
 flatpak install flathub org.wireshark.Wireshark
