@@ -64,6 +64,10 @@ sudo pacman -S libreoffice
 
 sudo pacman -S handbrake
 
+sudo pacman -S bitwarden
+
+sudo pacman -S discord
+
 sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
 sudo pacman -S git python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info 
