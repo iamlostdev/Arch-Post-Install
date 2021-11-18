@@ -116,3 +116,9 @@ git clone https://github.com/intLostDev/Arch-Grapejuice-Mouse-Fix
 cd Arch-Grapejuice-Mouse-Fix
 
 sudo pacman -U wine-tkg-fsync-git-6.14.r0.g7bedd313c88-326-x86_64.pkg.tar.zst
+
+sudo pacman -Sy
+
+sudo pacman -Syu
+
+sudo pacman -Syyu
