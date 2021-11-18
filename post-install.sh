@@ -94,6 +94,8 @@ yay -S salad
 
 yay -S wireshark
 
+yay -S obs-linuxbrowser
+
 cd ~
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
