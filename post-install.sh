@@ -94,6 +94,8 @@ yay -S salad
 
 yay -S wireshark
 
+yay -S spotify
+
 yay -S obs-linuxbrowser
 
 cd ~
