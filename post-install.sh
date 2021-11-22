@@ -76,6 +76,8 @@ sudo pacman -S screen
 
 sudo pacman -S brave
 
+sudo pacman -S firefox
+
 sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
 sudo pacman -S git python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info 
@@ -131,7 +133,7 @@ git clone https://github.com/intLostDev/Arch-Grapejuice-Mouse-Fix
 
 cd Arch-Grapejuice-Mouse-Fix
 
-sudo pacman -U wine-tkg-fsync-git-6.14.r0.g7bedd313c88-326-x86_64.pkg.tar.zst
+./install.sh
 
 sudo pacman -Sy
 
