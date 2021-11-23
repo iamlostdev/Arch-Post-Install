@@ -110,6 +110,8 @@ yay -S wireshark
 
 yay -S spotify
 
+yay -S lunar-client
+
 yay -S obs-linuxbrowser
 
 cd ~
