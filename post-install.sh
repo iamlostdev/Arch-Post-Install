@@ -145,12 +145,12 @@ cd snapd
 
 makepkg -si
 
+sudo systemctl enable --now snapd.socket
 
+sudo snap install --devmode --beta anbox
 
 sudo pacman -Sy
 
 sudo pacman -Syu
 
 sudo pacman -Syyu
-
-sudo snap install --devmode --beta anbox
