@@ -110,8 +110,6 @@ yay -S spotify
 
 yay -S lunar-client
 
-yay -S obs-linuxbrowser
-
 cd ~
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -139,11 +137,21 @@ cd Arch-Grapejuice-Mouse-Fix
 
 ./install.sh
 
+cd ~
+
 git clone https://aur.archlinux.org/snapd.git
 
 cd snapd
 
 makepkg -si
+
+cd ~ 
+
+wget https://github.com/bazukas/obs-linuxbrowser/releases/download/0.6.1/linuxbrowser0.6.1-obs23.0.2-64bit.tgz
+
+mkdir -p $HOME/.config/obs-studio/plugins
+
+tar -zxvf linuxbrowser0.6.1-obs23.0.2-64bit.tgz -C $HOME/.config/obs-studio/plugins/
 
 sudo systemctl enable --now snapd.socket
 
