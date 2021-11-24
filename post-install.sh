@@ -12,8 +12,6 @@ sudo pacman -S yay
 
 sudo pacman -S git 
 
-sudo pacman -S snapd 
-
 sudo pacman -S flatpak
 
 sudo pacman -S cmake
@@ -140,6 +138,12 @@ git clone https://github.com/intLostDev/Arch-Grapejuice-Mouse-Fix
 cd Arch-Grapejuice-Mouse-Fix
 
 ./install.sh
+
+git clone https://aur.archlinux.org/snapd.git
+cd snapd
+makepkg -si
+
+
 
 sudo pacman -Sy
 
