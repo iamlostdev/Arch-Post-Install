@@ -152,3 +152,5 @@ sudo pacman -Sy
 sudo pacman -Syu
 
 sudo pacman -Syyu
+
+sudo snap install --devmode --beta anbox
