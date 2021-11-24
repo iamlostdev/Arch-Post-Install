@@ -140,7 +140,9 @@ cd Arch-Grapejuice-Mouse-Fix
 ./install.sh
 
 git clone https://aur.archlinux.org/snapd.git
+
 cd snapd
+
 makepkg -si
 
 
