@@ -114,6 +114,8 @@ yay -S spotify
 
 yay -S lunar-client
 
+yay -S npm
+
 cd ~
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -160,6 +162,18 @@ tar -zxvf linuxbrowser0.6.1-obs23.0.2-64bit.tgz -C $HOME/.config/obs-studio/plug
 sudo systemctl enable --now snapd.socket
 
 sudo snap install --devmode --beta anbox
+
+cd ~
+
+git clone --recursive https://github.com/LiveSplit/LiveSplitOne
+
+cd LiveSplitOne
+
+rustup target add wasm32-unknown-unknown
+
+npm install
+
+npm run build:core
 
 sudo pacman -Sy
 
