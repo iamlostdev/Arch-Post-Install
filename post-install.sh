@@ -163,8 +163,6 @@ tar -zxvf linuxbrowser0.6.1-obs23.0.2-64bit.tgz -C $HOME/.config/obs-studio/plug
 
 sudo systemctl enable --now snapd.socket
 
-sudo snap install --devmode --beta anbox
-
 cd ~
 
 git clone --recursive https://github.com/LiveSplit/LiveSplitOne
