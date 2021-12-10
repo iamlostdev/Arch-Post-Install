@@ -18,6 +18,8 @@ sudo pacman -S cmake
 
 sudo pacman -S base-devel
 
+sudo pacman -S printer-support
+
 cd ~
 
 git clone https://github.com/AUNaseef/protonup && cd protonup
