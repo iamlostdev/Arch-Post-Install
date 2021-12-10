@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo script is designed for a desktop environment and install to be finished
+
 cd ~
 
 sudo pacman -Sy
