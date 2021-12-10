@@ -70,8 +70,6 @@ sudo pacman -S nano
 
 sudo pacman -S screen
 
-sudo pacman -S brave
-
 sudo pacman -S firefox
 
 sudo pacman -S dosbox
@@ -170,6 +168,18 @@ rustup target add wasm32-unknown-unknown
 npm install
 
 npm run build:core
+
+cd ~
+
+git clone https://github.com/brave/brave-browser
+
+cd brave-browser
+
+npm install
+
+npm run init
+
+npm run build Release
 
 sudo pacman -Sy
 
