@@ -183,6 +183,8 @@ npm run build Release
 
 cd ~
 
+rm brave-browser
+
 python3 -m pip install --user mercurial
 
 curl https://hg.mozilla.org/mozilla-central/raw-file/default/python/mozboot/bin/bootstrap.py -O
@@ -196,6 +198,10 @@ cd mozilla-unified
 ./mach build
 
 ./mach run
+
+cd ~
+
+rm mozilla-unified
 
 sudo pacman -Sy
 
