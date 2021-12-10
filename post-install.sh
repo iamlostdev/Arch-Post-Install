@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo this script is for after install and desktop environment is installed
+
 cd ~
 
 sudo pacman -Sy
