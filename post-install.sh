@@ -20,6 +20,8 @@ sudo pacman -S cmake
 
 sudo pacman -S base-devel
 
+sudo pacman -S python3
+
 cd ~
 
 git clone https://github.com/AUNaseef/protonup && cd protonup
@@ -69,8 +71,6 @@ sudo pacman -S filezilla
 sudo pacman -S nano
 
 sudo pacman -S screen
-
-sudo pacman -S firefox
 
 sudo pacman -S dosbox
 
@@ -180,6 +180,22 @@ npm install
 npm run init
 
 npm run build Release
+
+cd ~
+
+python3 -m pip install --user mercurial
+
+curl https://hg.mozilla.org/mozilla-central/raw-file/default/python/mozboot/bin/bootstrap.py -O
+
+python3 bootstrap.py
+
+rm bootstrap.py
+
+cd mozilla-unified
+
+./mach build
+
+./mach run
 
 sudo pacman -Sy
 
