@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo this script is for after install and desktop environment is installed
-
 cd ~
 
 sudo pacman -Sy
@@ -19,8 +17,6 @@ sudo pacman -S flatpak
 sudo pacman -S cmake
 
 sudo pacman -S base-devel
-
-sudo pacman -S python3
 
 cd ~
 
@@ -71,6 +67,10 @@ sudo pacman -S filezilla
 sudo pacman -S nano
 
 sudo pacman -S screen
+
+sudo pacman -S brave
+
+sudo pacman -S firefox
 
 sudo pacman -S dosbox
 
@@ -168,40 +168,6 @@ rustup target add wasm32-unknown-unknown
 npm install
 
 npm run build:core
-
-cd ~
-
-git clone https://github.com/brave/brave-browser
-
-cd brave-browser
-
-npm install
-
-npm run init
-
-npm run build Release
-
-cd ~
-
-rm brave-browser
-
-python3 -m pip install --user mercurial
-
-curl https://hg.mozilla.org/mozilla-central/raw-file/default/python/mozboot/bin/bootstrap.py -O
-
-python3 bootstrap.py
-
-rm bootstrap.py
-
-cd mozilla-unified
-
-./mach build
-
-./mach run
-
-cd ~
-
-rm mozilla-unified
 
 sudo pacman -Sy
 
