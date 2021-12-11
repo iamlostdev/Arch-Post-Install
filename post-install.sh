@@ -22,6 +22,8 @@ sudo pacman -S base-devel
 
 sudo pacman -S printer-support
 
+sudo pacman -S debtap
+
 cd ~
 
 git clone https://github.com/AUNaseef/protonup && cd protonup
