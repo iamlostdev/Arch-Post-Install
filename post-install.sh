@@ -48,7 +48,7 @@ sudo pacman -S wine
 
 sudo pacman -S steam
 
-sudo pacman -S code
+sudo pacman -S vscodium
 
 sudo pacman -S obs-studio
 
