@@ -88,7 +88,7 @@ sudo pacman -S pipewire-pulse
 
 sudo pacman -S easyeffects
 
-sudo pacman -S tor
+sudo pacman -S tor-browser
 
 sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
