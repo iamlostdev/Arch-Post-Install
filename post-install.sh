@@ -120,18 +120,13 @@ yay -S spotify
 
 yay -S lunar-client
 
+yay -S grapejuice-git
+
 yay -S npm
 
 cd ~
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-cd ~
-
-git clone https://gitlab.com/brinkervii/grapejuice.git /tmp/grapejuice
-
-cd /tmp/grapejuice
-./install.py
 
 cd ~
 
