@@ -24,6 +24,8 @@ sudo pacman -S printer-support
 
 sudo pacman -S debtap
 
+sudo pacman -S anaconda
+
 cd ~
 
 git clone https://github.com/AUNaseef/protonup && cd protonup
@@ -123,6 +125,10 @@ yay -S lunar-client
 yay -S grapejuice-git
 
 yay -S npm
+
+conda install numba
+
+conda install cudatoolkit
 
 cd ~
 
