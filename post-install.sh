@@ -98,6 +98,8 @@ sudo pacman -S git python-pip cairo gtk3 gobject-introspection desktop-file-util
 
 sudo pacman -S expac 
 
+sudo pacman -S virt-manager
+
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
 yay -S noisetorch
