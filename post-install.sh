@@ -126,6 +126,8 @@ yay -S grapejuice-git
 
 yay -S npm
 
+yay -S doas
+
 conda install numba
 
 conda install cudatoolkit
