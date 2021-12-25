@@ -102,6 +102,8 @@ sudo pacman -S virt-manager
 
 sudo pacman -S qemu
 
+sudo pacman -S hyperv
+
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
 yay -S noisetorch
