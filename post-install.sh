@@ -26,6 +26,8 @@ sudo pacman -S debtap
 
 sudo pacman -S anaconda
 
+sudo pacman -S  rawtherapee
+
 cd ~
 
 git clone https://github.com/AUNaseef/protonup && cd protonup
