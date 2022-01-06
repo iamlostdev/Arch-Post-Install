@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo script is designed for a desktop environment and install to be finished
 
 sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com 
@@ -123,6 +121,8 @@ sudo pacman -S qemu
 
 sudo pacman -S ovmf
 
+sudo pacman -S libvirt
+
 sudo pacman -S hyperv
 
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
@@ -206,6 +206,8 @@ rustup target add wasm32-unknown-unknown
 npm install
 
 npm run build:core
+
+sudo systemctl enable libvirtd
 
 sudo pacman -Sy
 
