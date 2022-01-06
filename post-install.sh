@@ -71,8 +71,6 @@ sudo pacman -S blender
 
 sudo pacman -S spotify
 
-sudo pacman -S virtualbox
-
 sudo pacman -S libreoffice
 
 sudo pacman -S handbrake
