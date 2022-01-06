@@ -71,8 +71,6 @@ sudo pacman -S blender
 
 sudo pacman -S spotify
 
-sudo pacman -S virtualbox
-
 sudo pacman -S libreoffice
 
 sudo pacman -S handbrake
@@ -106,6 +104,8 @@ sudo pacman -S tor-browser
 sudo pacman -S kdenlive
 
 sudo pacman -S dxvk
+
+sudo pacman -S konsole
 
 sudo pacman -S topgrade
 
