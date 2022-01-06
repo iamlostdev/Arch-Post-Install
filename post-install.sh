@@ -35,14 +35,6 @@ sudo pacman -S anaconda
 
 sudo pacman -S  rawtherapee
 
-cd ~
-
-git clone https://github.com/AUNaseef/protonup && cd protonup
-python3 setup.py install --user
-
-[multilib]
-Include = /etc/pacman.d/mirrorlist
-
 sudo pacman -S vlc
 
 sudo pacman -S lutris 
@@ -154,6 +146,8 @@ yay -S grapejuice-git
 yay -S npm
 
 yay -S doas
+
+yay -S protonup
 
 conda install numba
 
