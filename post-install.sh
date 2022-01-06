@@ -105,7 +105,7 @@ sudo pacman -S kdenlive
 
 sudo pacman -S dxvk
 
-sudo pacman -S lxc
+sudo pacman -S konsole
 
 sudo pacman -S topgrade
 
