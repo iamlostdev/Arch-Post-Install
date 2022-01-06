@@ -107,6 +107,8 @@ sudo pacman -S kdenlive
 
 sudo pacman -S dxvk
 
+sudo pacman -S lxc
+
 sudo pacman -S topgrade
 
 sudo pacman -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
