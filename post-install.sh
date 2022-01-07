@@ -117,6 +117,8 @@ sudo pacman -S libvirt
 
 sudo pacman -S hyperv
 
+sudo pacman -S feh
+
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
 yay -S noisetorch
