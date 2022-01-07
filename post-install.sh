@@ -121,6 +121,8 @@ sudo pacman -S feh
 
 sudo pacman -S swtpm
 
+sudo pacman -S meson
+
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
 yay -S noisetorch
@@ -204,6 +206,16 @@ rustup target add wasm32-unknown-unknown
 npm install
 
 npm run build:core
+
+cd ~ 
+
+git clone https://gitlab.freedesktop.org/virgl/virglrenderer
+
+meson build
+
+cd build
+
+ninja install
 
 sudo systemctl enable libvirtd
 
