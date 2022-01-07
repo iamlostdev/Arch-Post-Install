@@ -35,7 +35,7 @@ sudo pacman -S anaconda
 
 sudo pacman -S  rawtherapee
 
-sudo pacman -S vlc
+sudo pacman -S celluloid
 
 sudo pacman -S lutris 
 
