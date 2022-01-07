@@ -119,6 +119,8 @@ sudo pacman -S hyperv
 
 sudo pacman -S feh
 
+sudo pacman -S swtpm
+
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
 yay -S noisetorch
