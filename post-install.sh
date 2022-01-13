@@ -65,7 +65,7 @@ sudo pacman -S libreoffice
 
 sudo pacman -S handbrake
 
-sudo pacman -S bitwarden
+sudo pacman -S keepassxc
 
 sudo pacman -S discord
 
