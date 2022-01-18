@@ -11,6 +11,8 @@ su
 echo "[chaotic-aur]
 Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
 
+exit
+
 cd ~
 
 sudo pacman -Sy
