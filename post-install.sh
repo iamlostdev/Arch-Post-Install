@@ -131,6 +131,8 @@ sudo pacman -S swtpm
 
 sudo pacman -S meson
 
+sudo pacman -S sauerbraten
+
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
 yay -S noisetorch
