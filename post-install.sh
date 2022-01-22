@@ -135,6 +135,8 @@ sudo pacman -S sauerbraten
 
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
+yay -S mesen
+
 yay -S noisetorch
 
 yay -S davinci-resolve
