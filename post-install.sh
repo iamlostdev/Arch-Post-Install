@@ -133,6 +133,10 @@ sudo pacman -S meson
 
 sudo pacman -S sauerbraten
 
+sudo pacman -S gnome-disks
+
+sudo pacman -S k3b
+
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
 yay -S noisetorch
