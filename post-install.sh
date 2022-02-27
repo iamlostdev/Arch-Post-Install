@@ -171,6 +171,8 @@ yay -S protonup
 
 yay -S qemu-git
 
+yay -S alvr
+
 conda install numba
 
 conda install cudatoolkit
