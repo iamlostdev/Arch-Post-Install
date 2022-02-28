@@ -173,6 +173,8 @@ yay -S qemu-git
 
 yay -S alvr
 
+yay -S multimc
+
 conda install numba
 
 conda install cudatoolkit
