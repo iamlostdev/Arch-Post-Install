@@ -175,6 +175,10 @@ yay -S alvr
 
 yay -S multimc
 
+yay -S gamemode-git
+
+yay -S oversteer
+
 conda install numba
 
 conda install cudatoolkit
