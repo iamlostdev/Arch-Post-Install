@@ -179,6 +179,8 @@ yay -S gamemode-git
 
 yay -S oversteer
 
+yay -S putty
+
 conda install numba
 
 conda install cudatoolkit
