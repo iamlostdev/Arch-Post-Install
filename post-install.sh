@@ -245,6 +245,8 @@ ninja install
 
 sudo systemctl enable libvirtd
 
+flatpak install ferdi
+
 sudo pacman -Sy
 
 sudo pacman -Syu
