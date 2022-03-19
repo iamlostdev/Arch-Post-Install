@@ -23,7 +23,49 @@ sudo pacman -Syyu
 
 sudo pacman -S yay
 
-sudo pacman -S git flatpak cmake base-devel printer-support anaconda rawtherapee celluloid lutris audacity darktable inkscape gimp wine steam vscodium obs-studio neofetch blender spotify libreoffice
+sudo pacman -S git 
+
+sudo pacman -S flatpak
+
+sudo pacman -S cmake
+
+sudo pacman -S base-devel
+
+sudo pacman -S printer-support
+
+sudo pacman -S debtap
+
+sudo pacman -S anaconda
+
+sudo pacman -S  rawtherapee
+
+sudo pacman -S celluloid
+
+sudo pacman -S lutris 
+
+sudo pacman -S audacity
+
+sudo pacman -S darktable
+
+sudo pacman -S inkscape
+
+sudo pacman -S gimp
+
+sudo pacman -S wine 
+
+sudo pacman -S steam
+
+sudo pacman -S vscodium
+
+sudo pacman -S obs-studio
+
+sudo pacman -S neofetch
+
+sudo pacman -S blender
+
+sudo pacman -S spotify
+
+sudo pacman -S libreoffice
 
 sudo pacman -S handbrake
 
