@@ -181,6 +181,10 @@ yay -S oversteer
 
 yay -S putty
 
+yay -S doge-qt
+
+yay -S cgminer
+
 conda install numba
 
 conda install cudatoolkit
