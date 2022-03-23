@@ -185,6 +185,8 @@ yay -S dogecoin-qt
 
 yay -S cgminer
 
+yay -S meshroom
+
 conda install numba
 
 conda install cudatoolkit
