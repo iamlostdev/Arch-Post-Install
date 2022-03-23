@@ -181,7 +181,7 @@ yay -S oversteer
 
 yay -S putty
 
-yay -S doge-qt
+yay -S dogecoin-qt
 
 yay -S cgminer
 
