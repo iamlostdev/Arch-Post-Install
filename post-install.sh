@@ -257,4 +257,6 @@ flatpak install goxel
 
 flatpak install pcsx2
 
+flatpak install meshroom
+
 topgrade
