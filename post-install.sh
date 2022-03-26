@@ -255,8 +255,4 @@ flatpak install ferdi
 
 flatpak install goxel
 
-sudo pacman -Sy
-
-sudo pacman -Syu
-
-sudo pacman -Syyu
+topgrade
