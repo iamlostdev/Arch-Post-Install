@@ -83,6 +83,10 @@ sudo pacman -S brave
 
 sudo pacman -S firefox
 
+sudo pacman -S firefox-nightly
+
+sudo pacman -S firefox-developer-edition
+
 sudo pacman -S dosbox
 
 sudo pacman -S gparted
