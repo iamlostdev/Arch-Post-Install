@@ -255,4 +255,6 @@ flatpak install ferdi
 
 flatpak install goxel
 
+flatpak install pcsx2
+
 topgrade
