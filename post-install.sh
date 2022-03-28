@@ -263,4 +263,6 @@ flatpak install goxel
 
 flatpak install pcsx2
 
+virsh net-autostart default
+
 topgrade
