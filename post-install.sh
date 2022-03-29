@@ -195,6 +195,8 @@ yay -S meshroom
 
 yay -S lua
 
+yay -S appimage
+
 conda install numba
 
 conda install cudatoolkit
@@ -265,7 +267,13 @@ flatpak install goxel
 
 flatpak install pcsx2
 
-flatpak install love2d
+cd ~
+
+mkdir love
+
+cd love
+
+wget https://github.com/love2d/love/releases/download/11.4/love-11.4-x86_64.AppImage
 
 sudo virsh net-autostart default
 
