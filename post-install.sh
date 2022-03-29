@@ -193,6 +193,8 @@ pip3 install pyside2
 
 yay -S meshroom
 
+yay -S lua
+
 conda install numba
 
 conda install cudatoolkit
@@ -262,6 +264,8 @@ flatpak install ferdi
 flatpak install goxel
 
 flatpak install pcsx2
+
+flatpak install love2d
 
 sudo virsh net-autostart default
 
