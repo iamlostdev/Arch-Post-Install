@@ -275,6 +275,14 @@ cd love
 
 wget https://github.com/love2d/love/releases/download/11.4/love-11.4-x86_64.AppImage
 
+cd ~
+
+wget https://github.com/CryZe/obs-livesplit-one/releases/download/v0.2.0/obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz
+
+mkdir -p $HOME/.config/obs-studio/plugins
+
+tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C $HOME/.config/obs-studio/plugins/
+
 sudo virsh net-autostart default
 
 topgrade
