@@ -145,7 +145,7 @@ sudo pacman -S $(expac '%n %o' | grep ^wine)
 
 yay -S noisetorch
 
-yay -S davinci-resolve
+yay -S davinci-resolve pulseaudio-alsa
 
 yay -S heroic-games-launcher-bin
 
