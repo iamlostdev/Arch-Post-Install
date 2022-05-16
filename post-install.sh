@@ -197,8 +197,6 @@ yay -S lua
 
 yay -S appimage
 
-yay -S mednafen
-
 conda install numba
 
 conda install cudatoolkit
