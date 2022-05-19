@@ -199,6 +199,8 @@ yay -S appimage
 
 yay -S bottles
 
+yay -S pcsx2
+
 conda install numba
 
 conda install cudatoolkit
@@ -266,8 +268,6 @@ sudo systemctl enable libvirtd
 flatpak install ferdi
 
 flatpak install goxel
-
-flatpak install pcsx2
 
 cd ~
 
