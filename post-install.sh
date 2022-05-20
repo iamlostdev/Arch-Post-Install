@@ -139,7 +139,7 @@ sudo pacman -S sauerbraten
 
 sudo pacman -S gnome-disks
 
-sudo pacman -S brasero
+sudo pacman -S k3b
 
 sudo pacman -S $(expac '%n %o' | grep ^wine) 
 
@@ -200,6 +200,8 @@ yay -S appimage
 yay -S bottles
 
 yay -S pcsx2
+
+yay -S brasero
 
 conda install numba
 
