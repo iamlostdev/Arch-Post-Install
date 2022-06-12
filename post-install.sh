@@ -110,11 +110,3 @@ mkdir -p $HOME/.config/obs-studio/plugins
 tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C $HOME/.config/obs-studio/plugins/
 
 sudo virsh net-autostart default
-
-cd ~
-
-mkdir PS2BIOS
-
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1PMa5XznwuwlYBxzm5ngLU1ZZSERaZDdm' -O ~/PS2BIOS/scph39001.bin
-
-topgrade
