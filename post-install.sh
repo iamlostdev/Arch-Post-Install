@@ -27,6 +27,9 @@ sudo pacman -S git
 
 sudo pacman -S flatpak
 
+flatpak install ferdi goxel bottles firefox
+flatpak install --from https://firefox-flatpak.mojefedora.cz/org.mozilla.FirefoxNightly.flatpakref
+
 sudo pacman -S cmake
 
 sudo pacman -S base-devel
@@ -77,13 +80,7 @@ sudo pacman -S filezilla
 
 sudo pacman -S nano
 
-sudo pacman -S screen
-
 sudo pacman -S brave
-
-sudo pacman -S firefox
-
-sudo pacman -S firefox-nightly
 
 sudo pacman -S firefox-developer-edition
 
@@ -197,11 +194,7 @@ yay -S lua
 
 yay -S appimage
 
-yay -S bottles
-
 yay -S pcsx2
-
-yay -S brasero
 
 conda install numba
 
@@ -266,10 +259,6 @@ cd build
 ninja install
 
 sudo systemctl enable libvirtd
-
-flatpak install ferdi
-
-flatpak install goxel
 
 cd ~
 
