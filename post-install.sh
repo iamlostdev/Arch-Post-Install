@@ -51,23 +51,7 @@ cd Arch-Grapejuice-Mouse-Fix
 
 ./install.sh
 
-cd ~
-
-git clone https://aur.archlinux.org/snapd.git
-
-cd snapd
-
-makepkg -si
-
 cd ~ 
-
-wget https://github.com/bazukas/obs-linuxbrowser/releases/download/0.6.1/linuxbrowser0.6.1-obs23.0.2-64bit.tgz
-
-mkdir -p $HOME/.config/obs-studio/plugins
-
-tar -zxvf linuxbrowser0.6.1-obs23.0.2-64bit.tgz -C $HOME/.config/obs-studio/plugins/
-
-cd ~
 
 mkdir love
 
@@ -79,9 +63,9 @@ cd ~
 
 wget https://github.com/CryZe/obs-livesplit-one/releases/download/v0.2.0/obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz
 
-mkdir -p $HOME/.config/obs-studio/plugins
+mkdir -p ~/.var/app/com.obsproject.Studio/config/obs-studio/plugins
 
-tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C $HOME/.config/obs-studio/plugins/
+tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C ~/.var/app/com.obsproject.Studio/config/obs-studio/plugins
 
 sudo virsh net-autostart default
 
