@@ -29,9 +29,7 @@ yay -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-al
 
 flatpak install flathub pcsx2 wireshark minecraft qbittorrent heroicgames ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam vscodium obs blender spotify libreoffice handbrake discord filezilla brave dosbox torbrowser
 
-conda install numba
-
-conda install cudatoolkit
+conda install numba cudatoolkit
 
 cd ~
 
@@ -71,30 +69,6 @@ tar -zxvf linuxbrowser0.6.1-obs23.0.2-64bit.tgz -C $HOME/.config/obs-studio/plug
 
 cd ~
 
-git clone --recursive https://github.com/LiveSplit/LiveSplitOne
-
-cd LiveSplitOne
-
-rustup target add wasm32-unknown-unknown
-
-npm install
-
-npm run build:core
-
-cd ~ 
-
-git clone https://gitlab.freedesktop.org/virgl/virglrenderer
-
-meson build
-
-cd build
-
-ninja install
-
-sudo systemctl enable libvirtd
-
-cd ~
-
 mkdir love
 
 cd love
@@ -110,3 +84,5 @@ mkdir -p $HOME/.config/obs-studio/plugins
 tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C $HOME/.config/obs-studio/plugins/
 
 sudo virsh net-autostart default
+
+topgrade
