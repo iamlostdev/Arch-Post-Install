@@ -27,7 +27,7 @@ yay -S git meshroom alvr oversteer putty gamemode-git multimc protonup github-de
 
 yay -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
-flatpak install flathub pcsx2 wireshark minecraft qbittorrent heroicgames ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam vscodium obs blender spotify libreoffice handbrake discord filezilla brave dosbox torbrowser
+flatpak install flathub pcsx2 wireshark minecraft qbittorrent heroicgames ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam vscodium obs blender spotify libreoffice handbrake discord filezilla brave dosbox torbrowser osu
 
 conda install numba cudatoolkit
 
