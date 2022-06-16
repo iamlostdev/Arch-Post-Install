@@ -30,7 +30,7 @@ yay -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-al
 flatpak install flathub pcsx2 wireshark minecraft qbittorrent heroicgames ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs blender spotify libreoffice handbrake discord filezilla brave dosbox torbrowser
 
 conda install numba cudatoolkit
-
+cargo install remodel
 cd ~
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
