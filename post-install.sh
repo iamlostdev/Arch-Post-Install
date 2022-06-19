@@ -23,7 +23,7 @@ sudo pacman -Syyu
 
 sudo pacman -S yay
 
-yay -S git meshroom alvr oversteer putty gamemode-git multimc protonup github-desktop grapejuice-git npm doas lunar-client salad protonvpn davinci-resolve pulseaudio-alsa gnome-disks k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info cmake base-devel printer-support anaconda lutris pipewire pipewire-pulse konsole topgrade htop vim thunar vscodium flatpak
+yay -S git meshroom alvr oversteer putty gamemode-git multimc protonup github-desktop grapejuice-git npm doas lunar-client salad protonvpn davinci-resolve pulseaudio-alsa gnome-disks k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info cmake base-devel printer-support anaconda lutris pipewire pipewire-pulse konsole topgrade htop neovim thunar vscodium flatpak
 
 yay -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
