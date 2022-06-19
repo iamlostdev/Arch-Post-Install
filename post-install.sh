@@ -1,4 +1,3 @@
-#wowsocool
 echo script is designed for a desktop environment and install to be finished
 
 sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com 
