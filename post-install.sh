@@ -23,11 +23,11 @@ sudo pacman -Syyu
 
 sudo pacman -S yay
 
-yay -S git meshroom alvr oversteer putty gamemode-git multimc protonup github-desktop grapejuice-git npm doas lunar-client salad protonvpn davinci-resolve pulseaudio-alsa gnome-disks k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info cmake base-devel printer-support anaconda lutris pipewire pipewire-pulse konsole topgrade htop neovim vi vim-plug thunar vscodium flatpak
+yay -S git meshroom alvr oversteer putty gamemode-git multimc protonup github-desktop grapejuice-git npm doas lunar-client salad protonvpn davinci-resolve pulseaudio-alsa gnome-disks k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info cmake base-devel printer-support anaconda lutris pipewire pipewire-pulse konsole topgrade htop neovim vi vim-plug thunar vscodium handbrake flatpak
 
 yay -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
-flatpak install flathub pcsx2 wireshark minecraft qbittorrent heroicgames ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs blender spotify libreoffice handbrake discord filezilla brave dosbox torbrowser
+flatpak install flathub pcsx2 wireshark minecraft qbittorrent heroicgames ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs blender spotify libreoffice discord filezilla brave dosbox torbrowser
 
 conda install numba cudatoolkit
 cargo install remodel
