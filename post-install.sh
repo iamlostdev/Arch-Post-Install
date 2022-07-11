@@ -69,4 +69,12 @@ tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C ~/.var/app
 
 sudo virsh net-autostart default
 
+cd ~
+
+wget https://downloads.getmonero.org/gui/monero-gui-linux-x64-v0.17.3.2.tar.bz2
+
+mkdir monero
+
+tar -xf monero-gui-linux-x64-v0.17.3.2.tar.bz2 -C monero
+
 topgrade
