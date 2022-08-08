@@ -1,17 +1,12 @@
 echo script is designed for a desktop environment and install to be finished
 
-sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com 
+sudo pacman -S --needed git base-devel
 
-sudo pacman-key --lsign-key FBA220DFC880C036
+git clone https://aur.archlinux.org/yay.git
 
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+cd yay
 
-su
-
-echo "[chaotic-aur]
-Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
-
-exit
+makepkg -si
 
 cd ~
 
@@ -23,11 +18,12 @@ sudo pacman -Syyu
 
 sudo pacman -S yay
 
-yay -S git meshroom alvr oversteer putty gamemode-git multimc protonup github-desktop grapejuice-git npm doas lunar-client salad protonvpn davinci-resolve pulseaudio-alsa gnome-disks k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info cmake base-devel printer-support anaconda lutris pipewire pipewire-pulse konsole topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller menutray pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs-studio blender libreoffice discord filezilla brave dosbox tor protonup
+yay -S --needed meshroom alvr oversteer putty gamemode-git multimc protonup github-desktop grapejuice-git npm doas lunar-client salad protonvpn davinci-resolve pulseaudio-alsa gnome-disks k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info cmake base-devel printer-support anaconda lutris pipewire pipewire-pulse konsole topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller menutray pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs-studio blender libreoffice discord filezilla brave dosbox tor protonup
 
 yay -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
 conda install numba cudatoolkit
+
 cargo install remodel
 cd ~
 
