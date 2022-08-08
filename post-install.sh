@@ -57,9 +57,9 @@ cd ~
 
 wget https://github.com/CryZe/obs-livesplit-one/releases/download/v0.2.0/obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz
 
-mkdir -p ~/.var/app/com.obsproject.Studio/config/obs-studio/plugins
+mkdir -p ~/.config/obs-studio/plugins
 
-tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C ~/.var/app/com.obsproject.Studio/config/obs-studio/plugins
+tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C ~/.config/obs-studio/plugins
 
 sudo virsh net-autostart default
 
