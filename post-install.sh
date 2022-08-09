@@ -16,11 +16,10 @@ sudo pacman -Syu
 
 sudo pacman -Syyu
 
-sudo pacman -S yay
-
-yay -S --needed meshroom alvr oversteer putty gamemode-git multimc-bin protonup github-desktop grapejuice-git npm doas salad protonvpn davinci-resolve pulseaudio-alsa gnome-disks k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info cmake base-devel printer-support anaconda lutris pipewire pipewire-pulse konsole topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller menutray pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs-studio blender libreoffice discord filezilla brave dosbox tor protonup
+yay -S --needed meshroom alvr oversteer putty gamemode-git multimc-bin protonup github-desktop grapejuice-git npm salad protonvpn davinci-resolve pulseaudio-alsa gnome-disk k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cairo gtk3 gobject-introspection desktop-file-utils xdg-utils xdg-user-dirs gtk-update-icon-cache shared-mime-info cmake base-devel printer-support anaconda lutris konsole topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller menutra pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs-studio blender libreoffice-fresh discord filezilla brave dosbox tor protonup thunderbird flatpak
 
 flatpak install flathub lunar-client
+
 yay -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
 conda install numba cudatoolkit
