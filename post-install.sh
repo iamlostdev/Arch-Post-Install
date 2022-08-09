@@ -16,7 +16,7 @@ sudo pacman -Syu
 
 sudo pacman -Syyu
 
-yay -S --needed ulauncher meshroom alvr oversteer putty gamemode-git multimc-bin protonup github-desktop grapejuice-git npm salad protonvpn davinci-resolve pulseaudio-alsa k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cmake printer-support anaconda lutris konsole topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs-studio blender libreoffice-fresh discord filezilla brave dosbox tor protonup thunderbird wine flatpak
+yay -S --needed ulauncher meshroom alvr oversteer putty gamemode-git multimc-bin protonup github-desktop grapejuice-git npm salad protonvpn davinci-resolve pulseaudio-alsa k3b expac virt-manager qemu ovmf libvirt hyperv feh swtpm meson gparted python-pip cmake printer-support anaconda lutris konsole topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs-studio blender libreoffice-fresh discord filezilla brave dosbox tor protonup thunderbird wine gnome-disk-utility flatpak
 
 flatpak install flathub lunar-client
 
