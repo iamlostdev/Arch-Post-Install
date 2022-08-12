@@ -2,9 +2,9 @@ echo script is designed for a desktop environment and install to be finished
 
 sudo pacman -S --needed git base-devel
 
-git clone https://aur.archlinux.org/yay.git
+git clone https://aur.archlinux.org/paru.git
 
-cd yay
+cd paru
 
 makepkg -si
 
@@ -16,11 +16,11 @@ sudo pacman -Syu
 
 sudo pacman -Syyu
 
-yay -S ulauncher meshroom alvr oversteer putty gamemode-git multimc-bin protonup github-desktop grapejuice-git npm salad protonvpn davinci-resolve pulseaudio-alsa k3b expac virt-manager qemu ovmf libvirt hyperv dnsmasq feh swtpm meson gparted python-pip cmake printer-support anaconda lutris konsole topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs-studio blender libreoffice-fresh discord filezilla brave dosbox tor protonup thunderbird wine gnome-disk-utility flatpak
+paru -S ulauncher meshroom alvr oversteer putty gamemode-git multimc-bin protonup github-desktop grapejuice-git npm salad protonvpn davinci-resolve pulseaudio-alsa k3b expac virt-manager qemu ovmf libvirt hyperv dnsmasq feh swtpm meson gparted python-pip cmake printer-support anaconda lutris konsole topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs-studio blender libreoffice-fresh discord filezilla brave dosbox tor protonup thunderbird wine gnome-disk-utility flatpak
 
 flatpak install flathub lunarclient
 
-yay -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
+paru -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
 conda install numba cudatoolkit
 
