@@ -1,1 +1,1 @@
-mv config.py ~/.config/qtile/config.py
+cp config.py ~/.config/qtile/config.py
