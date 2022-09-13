@@ -53,7 +53,7 @@ keys = [
     Key([mod, "control"], "l", lazy.layout.grow_right(), desc="Grow window to the right"),
     Key([mod, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),
     Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
-    Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
+    Key([mod], "y", lazy.layout.normalize(), desc="Reset all window sizes"),
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
     # Unsplit = 1 window displayed, like Max layout, but still with
@@ -68,6 +68,7 @@ keys = [
     Key([mod], "n", lazy.spawn("nm-connection-editor"), desc="launch Network Manager"),
     Key([mod], "w", lazy.spawn("firefox"), desc="Launch Firefox"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Launch File Manager"),
+    Key([mod]), "s", lazy.spawn("scrot ~/Pictures/ -s")
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
