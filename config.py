@@ -68,7 +68,6 @@ keys = [
     Key([mod], "n", lazy.spawn("nm-connection-editor"), desc="launch Network Manager"),
     Key([mod], "w", lazy.spawn("firefox"), desc="Launch Firefox"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Launch File Manager"),
-    Key([mod], "s", lazy.spawn("scrot ~/Pictures/ -s"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
