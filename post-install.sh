@@ -59,7 +59,7 @@ cd $HOME
 
 wget https://github.com/CryZe/obs-livesplit-one/releases/download/v0.2.0/obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz
 
-mkdir -p $HOME/.var/app/com.obsproject.Studio/plugins
+mkdir -p $HOME/.var/app/com.obsproject.Studio/config/plugins
 
 tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C ~/.config/obs-studio/plugins
 
