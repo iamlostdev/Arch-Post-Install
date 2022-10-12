@@ -8,7 +8,7 @@ cd paru
 
 makepkg -si
 
-cd ~
+cd $HOME
 
 sudo pacman -Sy
 
@@ -16,22 +16,22 @@ sudo pacman -Syu
 
 sudo pacman -Syyu
 
-paru -S ulauncher meshroom alvr oversteer putty gamemode multimc protonup github-desktop grapejuice npm salad protonvpn kdenlive davinci-resolve pulseaudio-alsa k3b expac virt-manager qemu ovmf libvirt hyperv dnsmasq feh swtpm meson gparted python-pip cmake printer-support anaconda lutris kitty topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam obs-studio blender libreoffice-fresh onlyoffice discord filezilla brave dosbox tor protonup thunderbird wine gnome-disk-utility nautilus gvfs-mtp speedify speedifyui libdvdcss scrot fish noto-fonts-emoji flatpak
+paru -S ulauncher meshroom alvr oversteer putty gamemode multimc protonup github-desktop grapejuice npm salad protonvpn kdenlive davinci-resolve pulseaudio-alsa k3b expac virt-manager qemu ovmf libvirt hyperv dnsmasq feh swtpm meson gparted python-pip cmake printer-support anaconda lutris kitty topgrade htop neovim vi vim-plug thunar vscodium handbrake redshift spotify spotify-adkiller pcsx2 wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles firefox rawtherapee celluloid audacity darktable inkscape gimp steam blender libreoffice-fresh discord filezilla brave dosbox tor protonup thunderbird wine gnome-disk-utility nautilus gvfs-mtp speedify speedifyui brew flatpak
 
-sudo usermod --shell /bin/fish $USER
+brew install libdvdcss
 
-flatpak install flathub lunarclient
+flatpak install flathub com.lunarclient.LunarClient com.github.tchx84.Flatseal com.obsproject.Studio/x86_64/stable
 
 paru -S --asdep lib32-gnutls lib32-openssl lib32-pipewire lib32-libpulse lib32-alsa-lib lib32-alsa-plugins 
 
 conda install numba cudatoolkit
 
 cargo install remodel
-cd ~
+cd $HOME
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-cd ~
+cd $HOME
 
 git clone https://github.com/bevyengine/bevy
 
@@ -39,7 +39,7 @@ cd bevy
 
 git checkout latest
 
-cd ~
+cd $HOME
 
 git clone https://github.com/intLostDev/Arch-Grapejuice-Mouse-Fix
 
@@ -47,7 +47,7 @@ cd Arch-Grapejuice-Mouse-Fix
 
 ./install.sh
 
-cd ~ 
+cd $HOME
 
 mkdir love
 
@@ -55,11 +55,11 @@ cd love
 
 wget https://github.com/love2d/love/releases/download/11.4/love-11.4-x86_64.AppImage
 
-cd ~
+cd $HOME
 
 wget https://github.com/CryZe/obs-livesplit-one/releases/download/v0.2.0/obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz
 
-mkdir -p ~/.config/obs-studio/plugins
+mkdir -p $HOME/.var/app/com.obsproject.Studio/plugins
 
 tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C ~/.config/obs-studio/plugins
 
