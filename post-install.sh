@@ -59,9 +59,17 @@ cd $HOME
 
 wget https://github.com/CryZe/obs-livesplit-one/releases/download/v0.2.0/obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz
 
-mkdir -p $HOME/.var/app/com.obsproject.Studio/config/plugins
+mkdir -p $HOME/.var/app/com.obsproject.Studio/config/obs-studio/plugins
 
-tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C ~/.config/obs-studio/plugins
+tar -zxvf obs-livesplit-one-v0.2.0-x86_64-unknown-linux-gnu.tar.gz -C $HOME/.var/app/com.obsproject.Studio/config/obs-studio/plugins
+
+cd $HOME
+
+wget https://github.com/dimtpap/obs-pipewire-audio-capture/releases/download/1.0.5/linux-pipewire-audio-1.0.5-obs-27-compat.tar.gz
+
+tar -zxvf linux-pipewire-audio-1.0.5-obs-27-compat.tar.gz -C $HOME/.var/app/com.obsproject.Studio/config/obs-studio/plugins
+
+cd $HOME
 
 sudo virsh net-autostart default
 
