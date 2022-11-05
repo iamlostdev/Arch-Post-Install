@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo script is designed for a desktop environment and install to be finished
 
 sudo pacman -S --needed git base-devel
