@@ -19,5 +19,5 @@ PS1='[\u@\h \W]\$ '
 alias sudo="doas"
 alias ..="cd .."
 alias ...="cd ../.."
-alias scrot="scrot ~/Pictures/*.jpg -s"
+alias scrot="scrot -s $HOME/Pictures/%Y-%m-%d-%T-screenshot"
 alias h="helix"
