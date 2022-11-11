@@ -14,7 +14,7 @@ compinit
 #aliases
 alias ls='ls --color=auto'
 alias music='yt-dlp -f 'ba' -x --audio-format mp3'
-PS1='[\u@\h \W]\$ '
+PS1='%n@%m %~$ '
 . "$HOME/.cargo/env"
 alias sudo="doas"
 alias ..="cd .."
