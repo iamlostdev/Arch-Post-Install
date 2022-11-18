@@ -16,7 +16,6 @@ alias ls='ls --color=auto'
 alias music='yt-dlp -f 'ba' -x --audio-format mp3'
 PS1='%n@%m %~$ '
 . "$HOME/.cargo/env"
-alias sudo="doas"
 alias ..="cd .."
 alias ...="cd ../.."
 alias scrot="scrot -s $HOME/Pictures/%Y-%m-%d-%T-screenshot.jpg"
