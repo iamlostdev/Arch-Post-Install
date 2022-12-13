@@ -17,7 +17,7 @@ sudo pacman -Syu
 
 sudo pacman -Syyu
 
-paru -S zsh keepassxc kdesu kde-cli-tools scrot ulauncher meshroom alvr oversteer putty gamemode multimc protonup github-desktop grapejuice npm salad protonvpn kdenlive davinci-resolve pulseaudio-alsa k3b expac virt-manager qemu qemu-arch-extra ovmf libvirt hyperv dnsmasq feh swtpm meson gparted python-pip cmake printer-support anaconda lutris kitty topgrade htop neovim helix vi vim-plug thunar vscodium handbrake redshift spotify wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles librewolf brave rawtherapee celluloid audacity darktable inkscape gimp steam blender discord filezilla brave dosbox tor protonup thunderbird wine gnome-disk-utility nautilus gvfs-mtp brew flatpak
+paru -S zsh keepassxc kdesu kde-cli-tools scrot ulauncher meshroom alvr oversteer putty gamemode multimc protonup github-desktop grapejuice npm salad protonvpn kdeconnect kdenlive davinci-resolve pulseaudio-alsa k3b expac virt-manager qemu qemu-arch-extra ovmf libvirt hyperv dnsmasq feh swtpm meson gparted python-pip cmake printer-support anaconda lutris kitty topgrade htop neovim helix vi vim-plug thunar vscodium handbrake redshift spotify wireshark minecraft-launcher qbittorrent heroic-games-launcher ferdi goxel bottles librewolf brave rawtherapee celluloid audacity darktable inkscape gimp steam blender discord filezilla brave dosbox tor protonup thunderbird wine gnome-disk-utility nautilus gvfs-mtp brew flatpak
 
 brew install libdvdcss
 
