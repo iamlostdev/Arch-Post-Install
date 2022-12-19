@@ -19,4 +19,5 @@ PS1='%n@%m %~$ '
 alias ..="cd .."
 alias ...="cd ../.."
 alias scrot="scrot -s $HOME/Pictures/%Y-%m-%d-%T-screenshot.jpg"
-alias h="helix"
+alias hx="helix"
+alias vi="nvim"
