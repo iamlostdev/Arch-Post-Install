@@ -19,3 +19,7 @@ alias ...="cd ../.."
 alias scrot="scrot -s $HOME/Pictures/%Y-%m-%d-%T-screenshot.jpg"
 alias hx="helix"
 alias vi="nvim"
+
+#changes zsh hostname to be username@hostname(dir)$
+
+PS1=%F{cyan}%n%F{default}"@"%F{green}%m%F{red}"("%~")"%F{default}"$ "
