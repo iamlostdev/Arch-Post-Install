@@ -17,7 +17,7 @@ sudo pacman -Syu
 
 sudo pacman -Syyu
 
-paru -S zsh keepassxc kdesu kde-cli-tools scrot ulauncher meshroom multimc protonup github-desktop npm protonvpn kdeconnect kdenlive k3b expac virt-manager qemu qemu-arch-extra ovmf libvirt hyperv dnsmasq feh swtpm meson gparted python-pip cmake printer-support anaconda kitty topgrade htop neovim helix vi vim-plug thunar vscodium handbrake redshift spotify wireshark qbittorrent ferdi goxel bottles librewolf brave rawtherapee celluloid audacity darktable inkscape gimp blender discord filezilla brave dosbox tor protonup thunderbird wine gnome-disk-utility nautilus gvfs-mtp signal-desktop brew flatpak
+paru -S zsh keepassxc kdesu kde-cli-tools scrot ulauncher meshroom multimc protonup github-desktop npm protonvpn kdeconnect kdenlive k3b expac virt-manager qemu qemu-arch-extra ovmf libvirt hyperv dnsmasq feh swtpm meson gparted python-pip cmake printer-support anaconda kitty topgrade htop neovim helix vi vim-plug thunar vscodium handbrake redshift spotify wireshark qbittorrent ferdi goxel bottles librewolf google-chrome brave rawtherapee celluloid audacity darktable inkscape gimp blender discord filezilla brave dosbox tor protonup thunderbird wine gnome-disk-utility nautilus gvfs-mtp signal-desktop brew flatpak
 
 brew install libdvdcss
 

@@ -67,6 +67,7 @@ keys = [
     Key([mod], "t", lazy.spawn(terminal), desc="Launch terminal"),
     Key([mod], "n", lazy.spawn("nm-connection-editor"), desc="launch Network Manager"),
     Key([mod], "w", lazy.spawn("librewolf"), desc="Launch LibreWolf"),
+    Key([mod], "c", lazy.spawn("google-chrome-stable"), desc="Lauch Chrome"),
     Key([mod], "f", lazy.spawn("nautilus"), desc="Launch File Manager"),
     Key([mod], "v", lazy.spawn("virt-manager"), desc="launch virt-manager"),
     # Toggle between different layouts as defined below
